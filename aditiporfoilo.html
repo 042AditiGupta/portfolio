@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http -equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Aditi's Portfolio </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            color: #e6ebe0;
+            background-color: #00171f;
+        }
+        
+        #navigationbar {
+            padding: 20px;
+            margin-top: 10px;
+            height: 80px;
+            background-color: #0c3744;
+            
+            
+        }
+        
+        #navigationbar .navigation-brand {
+            width: 400px;
+            margin-top: 20px;
+            float: left;
+            font-size: 1.2cm;
+            margin-left: 200px;
+            font-style:italic;
+        }
+        
+        #navigationbar .nav {
+            padding-left: 600px;
+        }
+        
+        #navigationbar .nav ul li {
+            list-style-type: none;
+            padding: 20px;
+            font-size: 0.9cm;
+            float: left;
+            margin-left: 10px;
+        }
+        
+        #navigationbar .nav ul li a {
+            text-decoration: none;
+            transition: 0.5s;
+            color: #9eb3c2;
+        }
+        
+        #navigationbar .nav ul li a:hover {
+            text-decoration: none;
+            cursor: pointer;
+            width: 50%;
+        }
+        
+        .left {
+            width: 60%;
+            font-size: 5rem;
+            margin-left: 30px;
+            padding-top: 250px;
+            padding-bottom: 50px;
+            float: left;
+        }
+        
+        .About_me {
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 40px;
+            color:#34798f;
+        }
+        
+        .aboutme {
+            font-size: 30px;
+            margin-left: 48px;
+            padding-top: 30px;
+            text-align: left;
+            padding-bottom: 20px;
+            word-spacing: 0.8vb;
+        }
+        
+        .contact1 {
+            font-size: 30px;
+            margin-left: 40px;
+            padding-bottom: 20px;
+            padding-right: 50px;
+            padding-top: 30px;
+          
+        }
+        
+        .contact2 {
+            font-size: 30px;
+            padding-top: 30px;
+            margin-left: 40px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            
+        }
+        
+        .class {
+            font-size: 50px;
+            text-align: center;
+            margin-left: 100px;
+        }
+        
+        .icons i {
+            padding-top: 20px;
+            margin: 70px;
+            display: flex;
+            flex-direction: center;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            gap: 2.5px;
+            text-align: center;
+            margin-left: 200px;
+            transition:scale 0.1s;
+        }
+        .icons i:hover{
+            color: rgb(52, 144, 144);
+            transform:scale(1.2);
+
+
+        }
+        .container-fluid {
+            width: 1000px;
+            height: 500px;
+            margin-left: 50px;
+            text-align: center;
+        }
+        
+        .container {
+            margin-left: 30px;
+            padding-top: 30px;
+        }
+        
+        .image {
+            padding-top: 190px;
+        }
+        
+        .formsdetails {
+            text-align: center;
+            padding-top: 200px;
+            margin-top: 100px;
+        }
+        .year
+        {
+            background-color: rgb(51, 120, 120);
+            width:200px;
+            
+        }
+        .info
+        {
+            background-color:  rgb(51, 120, 120);
+            width:350px;
+        }
+        .form-heading
+        {
+            font-size:40px;
+            color:#34798f;
+        }
+        .form-control
+        {
+            font-size:20px;
+        }
+        .submit-btn
+        {
+            width:100px;
+
+        }
+        .submit-btn:hover
+        {
+            color:#34798f;
+
+        }
+        .btn {
+            border: 3px solid  rgb(52, 144, 144);
+            text-decoration: none;
+            font-size: 30px;
+            background-color: #34798f;
+            color: white;
+            border-radius: 3px;
+            margin-left:150px;
+        }
+        
+        .btn:hover {
+            background-color: rgb(223, 205, 240);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navigationbar">
+        <div class="navigation-brand">Aditi's Portfolio</div>
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutportfolio"> About</a></li>
+                <li><a href="/">Portfolio</a></li>
+                <li><a href="#details">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="left ">Hi,I'm Aditi and I'm a web developer.</div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js "></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    
+    <img src="image.png" width="400px" alt="profilepic " class="image" id="home">
+    <div class="buttons">
+        <a href="https://github.com/042AditiGupta?tab=repositories" class="btn">Visit Github</a>
+    </div>
+    <div class="right " >
+        <div class="About_me " id="aboutportfolio">About</div>
+        <div class="aboutme " id="about ">I 'm a second year undergraduate student of Computer Science and Engineering ,Amity  University  Jharkhand. I am a   passionate web developer currently undergoing an internship at Bharat Intern.I am able to quickly learn new technologies and am eager
+            to take a new challenges.I was fortunate enough to know from a young age that I wanted to be an engineer. The engineering way of thinking came naturally to me..Keen to learn and work on the new technologies.
+        </div>
+        <div class="About_me ">Education</div>
+       
+        <div class="aboutme " id="about ">12th : St. Xaviers College Ranchi, Jharkhand
+        <h4 class ="year">2020-2022</h4>
+            <h5>Intermediate(12th) , PCM</h5>
+            <h5>92%</h5></div>
+        <div class="aboutme " id="about ">Saraswati Vidya Mandir Latehar,Jharkhand 
+            <h4 class ="year">2019-2020</h4>
+            <h5>Matriculation (10th)</h5>
+            <h5>91.20%</h5>
+        </div>
+        <div class="About_me">Interest</div>
+        <div class="aboutme " id="about ">I possess a strong affinity for coding, a deep passion for extensive travel, and a keen interest in sketching during my leisure time.I have a strong penchant for journaling as it serves as a pivotal tool for introspection and personal growth.</div>
+    </div>
+    <div class="About_me" id="details">Contact</div>
+    <div class="contact1 " id="contact ">Phone no: <div class="info">6202899017</div> </div>
+    <div class="contact2" id=" contact ">Gmail:<div class="info"> kumari18aditi@gmail.com</div></div>
+    <div class="icons ">
+        <i class="fab fa-instagram fa-3x "></i>
+        <a href="https://www.linkedin.com/in/aditi-gupta-7b3918263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class=" fab fa-linkedin fa-3x "></i></a>
+        <i class="fab fa-facebook fa-3x "></i>
+        <i class="fab fa-twitter fa-3x "></i>
+
+    </div>
+    </div>
+    <!-- Contact End -->
+
+</body>
+<div class="formsdetails">
+    <section class="contact" id="contactdetails">
+        <h2 class="form-heading">Contact Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form>
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" >
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+</html>
